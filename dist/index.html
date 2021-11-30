@@ -11,12 +11,33 @@
     <div class="home-container">
         <div class="container">
             <div class="container__image">
-                <div class="container__resizable"></div>
+
+                <div draggable="true" class="container__resizable">
+
+                    <label id="choosePhoto-btn" for="uploadFile-btn">
+                        <i class="fas fa-cloud-upload-alt"></i>
+                        Escolha uma imagem
+                    </label>
+
+                    <input type="file" name="uploadFile-btn" id="uploadFile-btn" style="display: none;">
+                </div>
+
             </div>
-    
-            <label id="choosePhoto-btn" for="uploadFile-btn">Escolha uma imagem</label>
-            <input type="file" name="uploadFile-btn" id="uploadFile-btn" style="display: none;">
+            <div class="container-dimensions">
+                <div class="dimensions">
+                    <p>Largura</p>
+                    <span id="width">120px</span>
+                </div>
+                <div class="dimensions">
+                    <p>Altura</p>
+                    <span id="height">80px</span>
+                </div>
+            </div>
+            <button id="download-btn">Download</button>
         </div>
     </div>
+
+    <script src="https://kit.fontawesome.com/8c5bd3d475.js" crossorigin="anonymous"></script>
+    <script src="/js/main.js"></script>
 </body>
 </html>
