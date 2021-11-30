@@ -1,7 +1,8 @@
 const file = document.querySelector('#uploadFile-btn')
-const containerResizable = document.querySelector('.container__resizable')
+const chosenImage = document.querySelector('.chosenImage')
 
-{/* <img src=" " alt=""> */}
+file.addEventListener('change', uploadImage)
+
 function uploadImage(){
     let picture = this.files[0]
 
@@ -9,7 +10,8 @@ function uploadImage(){
         let reader = new FileReader();
 
         reader.addEventListener('load', ()=>{
-            containerResizable.setAttribute('img', reader.result)
+            chosenImage.setAttribute('src', reader.result)
         })
+        reader.readAsDataURL(picture)
     }
 }
