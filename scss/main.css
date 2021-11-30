@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Audiowide&family=Ubuntu:wght@300;400&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-decoration: none;
+  outline: none;
+}
+
+.home-container {
+  width: 100%;
+  height: 100vh;
+  display: -ms-grid;
+  display: grid;
+  place-content: center;
+}
+
+.home-container .container {
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  width: 400px;
+  height: 400px;
+  padding: 1rem;
+  border: 1px solid black;
+}
+
+.container__image {
+  position: relative;
+  width: 100%;
+  height: 300px;
+  border: 3px dashed #bab9b9;
+  border-radius: 5px;
+}
+
+.container__image .container__resizable {
+  width: 100%;
+  height: 100%;
+}
+
+#choosePhoto-btn {
+  display: -ms-grid;
+  display: grid;
+  place-content: center;
+  width: 100%;
+  height: 100%;
+  color: #fff;
+  font-size: 1.3rem;
+  font-family: 'Ubuntu', sans-serif;
+  background-image: linear-gradient(150deg, #FAD961, #F76B1C);
+  border-radius: 15px;
+  -webkit-box-shadow: 0px 4px 15px rgba(11, 11, 11, 0.4);
+          box-shadow: 0px 4px 15px rgba(11, 11, 11, 0.4);
+  cursor: pointer;
+}
+/*# sourceMappingURL=main.css.map */
