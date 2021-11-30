@@ -3,11 +3,7 @@ const getWidth = document.querySelector('#width')
 const getHeight = document.querySelector('#height')
 
 function getSize(){
-  
-
-    getWidth.innerHTML = window.innerWidth
-    getHeight.innerHTML = window.innerHeight
-
+    getWidth.innerHTML = `${containerResizable.clientWidth} px`
+    getHeight.innerHTML = `${containerResizable.clientHeight} px`
 }
 
-window.addEventListener('resize', getSize)
