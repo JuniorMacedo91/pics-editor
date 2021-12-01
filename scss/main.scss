@@ -44,7 +44,6 @@
 
     #choosePhoto-btn{
         position: absolute;
-        z-index: -1;
     }
 
     label{
@@ -63,16 +62,22 @@
     place-items: center;
     position: relative;
     
+    padding: 4px 0px 0px 4px;
     resize: both;
     overflow: scroll;
-    padding: 1.2rem 0px 0px 1.2rem;
 
     img{
         position: relative;
-       object-fit: contain;
-       width: 100%;
-       height: 100%;
+        width: 100%;
+        height: 100%;
+        z-index: 1;
     }
+}
+
+::-webkit-scrollbar{
+    background-color: transparent;
+    width: 5px;
+    height: 5px;
 }
 
 .container-dimensions{
@@ -91,10 +96,6 @@
             padding:5px
         }
    }
-}
-
-::-webkit-scrollbar{
-    background-color: transparent;
 }
 
 #download-btn{
