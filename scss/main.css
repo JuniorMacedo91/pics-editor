@@ -55,10 +55,16 @@
   place-content: center;
   place-items: center;
   cursor: pointer;
+  color: #bab9b9;
 }
 
 .container__image i {
   font-size: 6rem;
+  color: #bab9b9;
+}
+
+.container__image i:hover {
+  color: #000000;
 }
 
 #container__resizable {
