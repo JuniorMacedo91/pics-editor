@@ -1,8 +1,11 @@
 const file = document.querySelector('#uploadFile-btn')
 const chosenImage = document.querySelector('.chosenImage')
 const uploadButtonWrapper = document.getElementById('uploadButtonWrapper')
+const containerResizable = document.getElementById('container__resizable');
 
 file.addEventListener('change', uploadImage)
+containerResizable.addEventListener('mousemove', getSize)
+
 
 function uploadImage(){
     let picture = this.files[0]
@@ -17,3 +20,13 @@ function uploadImage(){
         reader.readAsDataURL(picture)
     }
 }
+
+
+
+function getSize(){
+    document.getElementById('width').innerHTML = `${containerResizable.clientWidth} px`;
+    document.getElementById('height').innerHTML = `${containerResizable.clientHeight} px`;
+}
+
+getSize()
+
