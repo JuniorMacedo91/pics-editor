@@ -59,18 +59,17 @@
   font-size: 6rem;
 }
 
-.container__resizable {
+#container__resizable {
   display: -ms-grid;
   display: grid;
   place-content: center;
   place-items: center;
   position: relative;
-  padding: 4px 0px 0px 4px;
   resize: both;
   overflow: scroll;
 }
 
-.container__resizable img {
+#container__resizable img {
   position: relative;
   width: 100%;
   height: 100%;

@@ -57,12 +57,10 @@
     }
 }
 
-.container__resizable{
+#container__resizable{
     @include display-grid();
     place-items: center;
     position: relative;
-    
-    padding: 4px 0px 0px 4px;
     resize: both;
     overflow: scroll;
 
