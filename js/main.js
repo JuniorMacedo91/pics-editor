@@ -5,6 +5,8 @@ const containerResizable = document.getElementById('container__resizable');
 
 file.addEventListener('change', uploadImage)
 containerResizable.addEventListener('mousemove', handleResize)
+containerResizable.addEventListener('touchmove', handleResize)
+
 
 
 function uploadImage(){
