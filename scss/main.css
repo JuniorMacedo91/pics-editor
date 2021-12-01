@@ -27,7 +27,6 @@
   position: relative;
   max-width: 640px;
   max-height: 960px;
-  text-align: center;
 }
 
 .container__image {
@@ -42,7 +41,7 @@
   border-radius: 5px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  padding: 7px 0px 0px 7px;
+  padding: 7px 0px 0px 10px;
 }
 
 .container__image #choosePhoto-btn {
@@ -54,8 +53,8 @@
   display: grid;
   place-content: center;
   place-items: center;
-  cursor: pointer;
   color: #bab9b9;
+  cursor: pointer;
 }
 
 .container__image i {
@@ -86,8 +85,8 @@
 
 ::-webkit-scrollbar {
   background-color: transparent;
-  width: 7px;
-  height: 7px;
+  width: 14px;
+  height: 14px;
 }
 
 .container-dimensions {
@@ -111,6 +110,22 @@
   text-transform: uppercase;
   font-weight: bold;
   padding: 5px;
+}
+
+.footer-wrapper {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  place-content: center;
+  place-items: center;
+}
+
+.footer-wrapper .fa-trash {
+  position: absolute;
+  right: 0;
+  font-size: 1.5rem;
+  cursor: pointer;
 }
 
 #download-btn {

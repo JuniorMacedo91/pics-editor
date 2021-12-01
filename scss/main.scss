@@ -26,7 +26,6 @@
         position: relative;
         max-width: 640px;
         max-height: 960px;
-        text-align: center;
     }
 }
 
@@ -39,7 +38,7 @@
     border:3px dashed rgb(186, 185, 185);
     border-radius: 5px;
     box-sizing: border-box;
-    padding:7px 0px 0px 7px;
+    padding:7px 0px 0px 10px;
 
     #choosePhoto-btn{
         position: absolute;
@@ -48,8 +47,8 @@
     label{
         @include display-grid();
         place-items: center;
-        cursor:pointer;
         color: rgb(186, 185, 185);
+        cursor:pointer;
     }
 
     i{
@@ -79,8 +78,8 @@
 
 ::-webkit-scrollbar{
     background-color: transparent;
-    width: 7px;
-    height: 7px;
+    width: 14px;
+    height: 14px;
 }
 
 .container-dimensions{
@@ -99,6 +98,19 @@
             padding:5px
         }
    }
+}
+
+.footer-wrapper{
+    position: relative;
+    display: flex;
+    place-content: center;
+    place-items: center;
+    .fa-trash{
+        position: absolute;
+        right: 0;
+        font-size: 1.5rem;
+        cursor: pointer;
+    }
 }
 
 #download-btn{
