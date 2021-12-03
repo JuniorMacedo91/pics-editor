@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/scss/main.css">
-    <title>image</title>
+    <title>Pics Editor</title>
 </head>
 <body>
     <div class="home-container">
@@ -20,7 +20,12 @@
                     <input type="file" name="uploadFile-btn" id="uploadFile-btn" style="display: none;">
                 </label>
             </div>
-
+            
+            <div class="typeOfFiles">
+                <p>Arquivos suportados</p>
+                <p class="supportedFiles" > JPEG, PNG, WebP, AVIF, TIFF, GIF and SVG</p>
+            </div>
+            
             <div class="container-dimensions">
                 <div class="dimensions">
                     <p>Largura</p>
@@ -39,6 +44,7 @@
         </div>
     </div>
 
+    <script src="/js/resize.js"></script>
     <script src="/js/main.js"></script>
     <script src="https://kit.fontawesome.com/8c5bd3d475.js" crossorigin="anonymous"></script>
 </body>

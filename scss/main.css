@@ -44,7 +44,7 @@
   padding: 7px 0px 0px 10px;
 }
 
-.container__image #choosePhoto-btn {
+.container__image #uploadButtonWrapper {
   position: absolute;
 }
 
@@ -87,6 +87,12 @@
   background-color: transparent;
   width: 14px;
   height: 14px;
+}
+
+.typeOfFiles {
+  margin-top: 1rem;
+  font-size: 10px;
+  text-align: center;
 }
 
 .container-dimensions {
