@@ -134,6 +134,13 @@
   cursor: pointer;
 }
 
+.footer-wrapper .fa-trash:hover {
+  -webkit-transform: scale(1.07);
+          transform: scale(1.07);
+  -webkit-transition: .3s ease;
+  transition: .3s ease;
+}
+
 #download-btn {
   padding: 10px 2rem;
   color: #fff;
@@ -145,5 +152,12 @@
   -webkit-box-shadow: 0px 4px 15px rgba(11, 11, 11, 0.4);
           box-shadow: 0px 4px 15px rgba(11, 11, 11, 0.4);
   cursor: pointer;
+}
+
+#download-btn:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+  -webkit-transition: .3s ease;
+  transition: .3s ease;
 }
 /*# sourceMappingURL=main.css.map */
