@@ -116,6 +116,11 @@
         right: 0;
         font-size: 1.5rem;
         cursor: pointer;
+
+        &:hover{
+            transform: scale((1.07));
+            transition: .3s ease;
+        }
     }
 }
 
@@ -129,5 +134,10 @@
     border-radius: 15px;
     box-shadow: 0px 4px 15px rgba(11, 11, 11, 0.4);
     cursor: pointer;
+
+    &:hover{
+        transform: scale((1.05));
+        transition: .3s ease;
+    }
 }
 
