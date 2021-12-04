@@ -28,6 +28,9 @@ It is quite simple to use it.
   - offsetHeight and offsetWidth; 
   - clientHeight and clientWidth;
   - scrollHeight and scrollWidth;
--
+- Creat elements by creatElement();
 
 ## Node.js main challenge:
+- Learn how to deal with Sharp module. A library from Node.js to process images;
+- How to structure functions in accordance with documentation;
+- To run a command in the terminal window;
