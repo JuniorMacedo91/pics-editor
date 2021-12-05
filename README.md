@@ -3,6 +3,17 @@
 ## About
 Pics Editor is an application to resize images by using NOde.js
 
+## How to run it:
+
+### Prerequisites
+- Node.js >= 12.13.0
+
+### Installation
+
+```
+ npm install sharp
+```
+
 It is quite simple to use it.
 
 ## How to use:
