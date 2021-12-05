@@ -1,14 +1,14 @@
 const sharp = require('sharp')
 const fs = require('fs')
 
-let path = process.argv[2];
-let width = Number(process.argv[3])
-let height = Number(process.argv[4]);
 
+let path =  `./temporary/me.jpg`
+let width = 288;
+let height = 203;
 
 function resize(path,width, height){
-    sharp(path).resize({width: width, height: height})
-            .toFile('./resized/new-image.jpg', erro =>{
+    sharp(path).resize({width: width, height: height}).jpeg()
+            .toFile('./resized/new-image.jpeg', erro =>{
                 if(erro){
                     console.log(erro)
                 } else{
@@ -23,5 +23,3 @@ function resize(path,width, height){
 
 resize(path,width, height)
 
-
-  
