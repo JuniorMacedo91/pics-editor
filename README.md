@@ -1,7 +1,7 @@
 # <p align="center"> PICS EDITOR</p>
 
 <p align="center">
-  <img src="preview.png" width="750px">
+  <img src="preview.png" width="650px">
 </p>
 
 
@@ -19,6 +19,14 @@ Pics Editor is an application to resize images by using Node.js
 
 ```
  npm install sharp
+ npm install express
+```
+
+### Dependecies:
+
+```
+sharp
+express
 ```
 
 It is quite simple to use it.
@@ -56,3 +64,12 @@ It is quite simple to use it.
 - Learn how to deal with Sharp module. A library from Node.js to process images;
 - How to structure functions in accordance with documentation;
 - To run a command in the terminal window;
+
+## Skill
+
+[![HTML](https://img.shields.io/badge/HTML-red?style=for-the-badge&logo=HTML5&labelColor=black)](https://github.com/JuniorMacedo91)
+[![CSS](https://img.shields.io/badge/CSS3-blue?style=for-the-badge&logo=CSS3&labelColor=black)](https://github.com/JuniorMacedo91)
+[![Sass](https://img.shields.io/badge/Sass-pink?style=for-the-badge&logo=sass&labelColor=black)](https://github.com/JuniorMacedo91)
+[![JavaScript](https://img.shields.io/badge/javascript-yellow?style=for-the-badge&logo=javascript&labelColor=black)](https://github.com/JuniorMacedo91)
+[![Figma](https://img.shields.io/badge/figma-teal?style=for-the-badge&logo=figma&labelColor=black)](https://github.com/JuniorMacedo91)
+[![Node.js](https://img.shields.io/badge/Node.js-green?style=for-the-badge&logo=node.js&labelColor=black)](https://github.com/JuniorMacedo91)
