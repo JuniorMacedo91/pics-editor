@@ -1,15 +1,20 @@
 # <p align="center"> PICS EDITOR</p>
 
 ## About
-Pics Editor is an application to resize images.
+Pics Editor is an application to resize images by using NOde.js
 
 It is quite simple to use it.
 
 ## How to use:
- - Open app;
- - Choose a picture;
+ - Open app https://picseditor.netlify.app/public/
+ - Choose a picture and drag it to the temporary file;
  - Hold the scroll arrow in the bottom right;
  - Resize it by dragging from bottom right to top;
+ - Open resize.js file;
+ - In the path variable insert the image's name;
+ - Put the width and height size as showed in the preview;
+ - Open the terminal and write NODE RESIZED;
+ - The new picture will be displayed in the resized file;
  
  > SUPPORTED FILES: JPEG, PNG, WebP, AVIF, TIFF, GIF and SVG images;
 
@@ -17,10 +22,9 @@ It is quite simple to use it.
 
 - [x] Upload image;
 - [x] Resize image;
-- [ ] Save into a temporary file;
-- [ ] Delete previous file;
-- [ ] Get new image;
-- [ ] Delete it;
+- [x] Save into a resized file;
+- [x] Delete temporary image;
+
 
 ## Javascript main challenge:
 - How to create a file reader;
