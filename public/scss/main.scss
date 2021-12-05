@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Ubuntu:wght@300;400&display=swap');
 
+$primary-color:  #181327;
+$secondary-color: #F76B1C;
+$text-color: #fff;
+
+
 *{
     margin: 0;
     padding: 0;
@@ -8,6 +13,8 @@
     outline: none;
     font-family: 'Ubuntu', sans-serif;
     letter-spacing: 3px;
+    background-color: $primary-color;
+    color: $text-color;
 }
 
 @mixin display-grid {
@@ -35,7 +42,7 @@
     position: relative;
     min-width: 320px;
     min-height: 400px;
-    border:3px dashed rgb(186, 185, 185);
+    border:3px dashed $text-color;
     border-radius: 5px;
     box-sizing: border-box;
     padding:7px 0px 0px 10px;
@@ -47,16 +54,15 @@
     label{
         @include display-grid();
         place-items: center;
-        color: rgb(186, 185, 185);
+        color: $text-color;
         cursor:pointer;
     }
 
     i{
         font-size: 6rem;
-        color: rgb(186, 185, 185);
 
         &:hover{
-            color: #000000;
+            color: $secondary-color;
         }
     }
 }
@@ -132,7 +138,7 @@
     background-image: linear-gradient(150deg, #FAD961, #F76B1C);
     border: none;
     border-radius: 15px;
-    box-shadow: 0px 4px 15px rgba(11, 11, 11, 0.4);
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.4);
     cursor: pointer;
 
     &:hover{
