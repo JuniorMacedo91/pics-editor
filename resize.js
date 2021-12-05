@@ -8,7 +8,7 @@ let height = Number(process.argv[4]);
 
 function resize(path,width, height){
     sharp(path).resize({width: width, height: height})
-            .toFile('./resized/newImage.jpg', erro =>{
+            .toFile('./resized/new-image.jpg', erro =>{
                 if(erro){
                     console.log(erro)
                 } else{

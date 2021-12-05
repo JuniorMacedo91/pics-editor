@@ -23,7 +23,7 @@ function uploadImage(){
             const image = document.createElement('img')
 
             anchor.href = reader.result
-            anchor.download = picture.name;
+            anchor.download = 'new-image.jpg';
             image.src = reader.result
 
             containerResizable.appendChild(anchor)
