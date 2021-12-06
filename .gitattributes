@@ -1,2 +1,2 @@
 * linguist-vendored
-*.node.js linguist-vendored=false
+*.node linguist-vendored=false
